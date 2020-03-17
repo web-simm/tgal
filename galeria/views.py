@@ -14,7 +14,7 @@ def galeria(request):
     dest2 = Galeria()
     dest2.name = 'Lua'
     dest2.des = 'O brilho que faz...'
-    dest2.img = '/static/815.jpg'
+    dest2.img = '815.jpg'
     dest2.price = 25
 
     dest3 = Galeria()

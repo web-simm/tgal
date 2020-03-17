@@ -1,4 +1,5 @@
 {% load static %}
+{% static "img" as baseUrl %}
 <!DOCTYPE html>
 <html>
 <title>Galeria</title>
@@ -45,7 +46,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 
 
-      <img src={{dest.img}} alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src='{{baseUrl}}/{{dest.img}}' alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>{{dest.name}}</b></p>
         <p>{{dest.des}}</p>
